@@ -9,7 +9,7 @@ namespace Base.Repository
 {
     public class BaseRepository:IDisposable
     {
-        private const string _connectionString = "server=cabele_leila.mysql.dbaas.com.br; uid=cabele_leila ; pwd=CABE_leila@123;database=cabele_leila";
+        private const string _connectionString = "COLOCAR STRING DE CONEXAO";
         private MySqlConnection _con;
 
         public void Conectar()
